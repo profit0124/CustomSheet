@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311521BD2B162AE500B683B7 /* BasicIdeaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311521BC2B162AE500B683B7 /* BasicIdeaView.swift */; };
+		311521C12B162DBF00B683B7 /* CustomSheetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311521C02B162DBF00B683B7 /* CustomSheetModifier.swift */; };
 		31A1A4BF2AAA0350008BC84F /* CustomBottomSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1A4BE2AAA0350008BC84F /* CustomBottomSheetApp.swift */; };
 		31A1A4C12AAA0350008BC84F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1A4C02AAA0350008BC84F /* ContentView.swift */; };
 		31A1A4C32AAA0351008BC84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A1A4C22AAA0351008BC84F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311521BC2B162AE500B683B7 /* BasicIdeaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicIdeaView.swift; sourceTree = "<group>"; };
+		311521C02B162DBF00B683B7 /* CustomSheetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetModifier.swift; sourceTree = "<group>"; };
 		31A1A4BB2AAA0350008BC84F /* CustomBottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBottomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A1A4BE2AAA0350008BC84F /* CustomBottomSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomSheetApp.swift; sourceTree = "<group>"; };
 		31A1A4C02AAA0350008BC84F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				31A1A4C02AAA0350008BC84F /* ContentView.swift */,
 				31A1A4C22AAA0351008BC84F /* Assets.xcassets */,
 				31A1A4C42AAA0351008BC84F /* Preview Content */,
+				311521BC2B162AE500B683B7 /* BasicIdeaView.swift */,
+				311521C02B162DBF00B683B7 /* CustomSheetModifier.swift */,
 			);
 			path = CustomBottomSheet;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A1A4C12AAA0350008BC84F /* ContentView.swift in Sources */,
+				311521C12B162DBF00B683B7 /* CustomSheetModifier.swift in Sources */,
+				311521BD2B162AE500B683B7 /* BasicIdeaView.swift in Sources */,
 				31A1A4BF2AAA0350008BC84F /* CustomBottomSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
